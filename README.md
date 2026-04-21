@@ -236,7 +236,7 @@ weather_data
 
 🔹 GitHub Actions Running
 
-/screenshots/github-actions.png
+.github/Github Action.png
 
 🔹 Supabase Table
 
