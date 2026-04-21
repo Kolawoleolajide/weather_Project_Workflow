@@ -240,11 +240,11 @@ weather_data
 
 🔹 Supabase Table
 
-/screenshots/database-table.png
+[/screenshots/database-table.png](https://github.com/Kolawoleolajide/weather_Project_Workflow/blob/ab3b1c85406de176d3ac084f5ae8820906b0813a/.github/Supabase.png)
 
 🔹 Power BI Connection
 
-/screenshots/powerbi-connection.png
+[/screenshots/powerbi-connection.png](https://github.com/Kolawoleolajide/weather_Project_Workflow/blob/ab3b1c85406de176d3ac084f5ae8820906b0813a/.github/weather.png)
 
 ----
 
