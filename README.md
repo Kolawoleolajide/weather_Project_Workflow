@@ -1,8 +1,6 @@
-🌦️ Automated Weather Data Pipeline
+ # 🌦️ Automated Weather Data Pipeline
 
-----
-
-📌 Overview
+## 📌 Overview
 
 This project is a fully automated cloud-based data pipeline that collects real-time weather data from an API, stores it in a PostgreSQL database, and runs on a scheduled basis using GitHub Actions.
 
@@ -22,14 +20,14 @@ Integration with Power BI
 
 ----
 
-🏗️ Architecture
+## 🏗️ Architecture
 
 API → Python Script → Supabase (PostgreSQL) → GitHub Actions → Power BI
 
 
 ----
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 Python (requests, psycopg2)
 
@@ -43,7 +41,7 @@ Power BI (data connection & reporting)
 
 ----
 
-🧩 Database Setup
+## 🧩 Database Setup
 
 Weather Data Table
 
@@ -59,7 +57,7 @@ CREATE TABLE weather_data (
 
 ----
 
-Pipeline Audit Table
+## Pipeline Audit Table
 
 CREATE TABLE pipeline_audit (
     id SERIAL PRIMARY KEY,
@@ -69,7 +67,7 @@ CREATE TABLE pipeline_audit (
 );
 
 
-🐍 Python Pipeline
+## 🐍 Python Pipeline
 
 Features
 
@@ -89,7 +87,7 @@ Secure environment variables
 
 ---
 
-Script (Core Logic)
+## Script (Core Logic)
 
 import requests
 import psycopg2
@@ -170,7 +168,7 @@ API_KEY	Weather API key
 
 ----
 
-⚡ Automation (GitHub Actions)
+## ⚡ Automation (GitHub Actions)
 
 Workflow File
 
@@ -199,7 +197,7 @@ jobs:
       - run: python weather_pipeline.py
 ----
 
-📊 Power BI Connection
+## 📊 Power BI Connection
 
 Steps
 
@@ -214,8 +212,6 @@ Steps
 
 4. Enter:
 
-
-
 Server: aws-0-eu-west-1.pooler.supabase.com
 Database: postgres
 
@@ -226,13 +222,15 @@ Username: postgres.xxxxx
 Password: your database password
 
 6. Enable SSL if prompted
+
 7. Select table:
 weather_data
+
 8. Click Load
 
 ----
 
-📸 Screenshots 
+## 📸 Screenshots 
 
 🔹 GitHub Actions Running
 
@@ -248,7 +246,7 @@ weather_data
 
 ----
 
-✅ Results
+## ✅ Results
 
 Fully automated hourly data pipeline
 
@@ -262,7 +260,7 @@ Ready for analytics and dashboards
 
 ----
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Data deduplication
 
@@ -276,7 +274,7 @@ Build real-time dashboard
 
 ----
 
-📌 Author
+## 📌 Author
 
 Kolawole Olajide
 Data Analyst | Building Real-World Data Projects
